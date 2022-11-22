@@ -19,7 +19,7 @@ module.exports = {
       'error',
       {
         semi: true,
-        printWidth: 100,
+        printWidth: 80,
         singleQuote: true,
         arrowParens: 'avoid',
         quoteProps: 'as-needed',
