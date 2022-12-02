@@ -1,7 +1,12 @@
 <template>
   <div>
     <label for=""></label>
-    <input id="todo-input" type="text" :value="item" @input="handleInput" />
+    오늘할일<input
+      id="todo-input"
+      type="text"
+      :value="item"
+      @input="handleInput"
+    />
     <button @click="addTodo" type="button">add</button>
   </div>
 </template>
